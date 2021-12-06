@@ -4,9 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Goal
-  - Bomb
   - Block
+  - Bomb
+  - Goal
+  - Gooal
+  - Kabe
+  - Ana
   layers:
   - Default
   - TransparentFX
