@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ScoreUI : MonoBehaviour
 {
+    //image‚Ìw’èêŠ
     public GameObject image;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class ScoreUI : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Test")
+        if (collision.gameObject.tag == "Player")
         {
             //Image‚Ì•\¦
             image.SetActive(true);

@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ButtanChange : MonoBehaviour
 {
+    //遷移先の名前を指定
     [SerializeField]
-    private string nextSceneName = "";  //遷移先の名前を指定
+    private string nextSceneName = "";  
 
     // Start is called before the first frame update
     void Start()

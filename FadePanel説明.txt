@@ -1,0 +1,25 @@
+FadeIn.Outファイル
+・ButtanChange→ボタンを押したらシーン遷移のスクリプト　Scene1のカメラについてる
+・FadeIn→不透明から透明にするスクリプト　Scene2のPanelについてる
+・FadeOut→透明から不透明にするスクリプト　※今は使ってない
+
+ScoreHyouziファイル
+
+・CountUp→宝と土に当たった時にスコア加算、中に目標のスコア以上になったら星表示スクリプト　Playerにつてる
+ScoreTextは 加算したスコアを表示させるTextの設定場所
+Imageは 星のImageの設定場所
+Scoremokuhyoは ○○以上の目標スコア設定場所
+Takarascoreは 宝に当たった時の加算させたい数値設定場所
+Blockscoreは 土に当たった時の加算させたい数値設定場所
+
+・ReplayButtan→ボタンを押したらシーンの初期化スクリプト　カメラ、ゴール、爆弾についてる
+Panelは 当たった時に表示したいPanelの設定場所
+
+・ScoreUI→ゴール時にスコア星の表示スクリプト　ゴールについてる
+Imageは 星のImageの設定場所
+
+・Timer→時間の表示スクリプト　Playerについてる
+Timeは 初期表示設定場所
+TimeTextは 時間を表示させたいTextの設定場所
+Imageは 星のImageの設定場所
+Timescoreは 目標秒数の設定場所

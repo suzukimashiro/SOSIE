@@ -4,10 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Fade
-  - Test
-  - Tuti
-  - Cube
+  - Goal
+  - Bomb
+  - Block
   layers:
   - Default
   - TransparentFX
